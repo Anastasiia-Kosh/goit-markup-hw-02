@@ -78,7 +78,8 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
 }
-.page-button:hover {
+.page-button:hover,
+.page-button:focus {
   background-color: #404bbf;
 }
 .features-add-title {
@@ -107,7 +108,9 @@ a {
   color: #2e2f42;
   text-transform: capitalize;
 }
-
+.team-photo {
+  background-color: #ffffff;
+}
 .team--add-title {
   font-weight: 500;
   font-size: 20px;
@@ -149,9 +152,11 @@ a {
   color: #434455;
 }
 .page-footer {
+  background-color: #2e2f42;
+}
+.footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  background-color: #2e2f42;
 }
